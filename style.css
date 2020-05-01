@@ -1,0 +1,461 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+      
+}
+
+body {
+    font-family:  sans-serif; 
+    line-height: 1.5;
+    
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:  Helvetica, sans-serif;
+    margin-bottom: .55rem;
+    line-height: 1.3;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;   
+
+}
+
+#mission .header {
+
+    display: flex;  
+    top: 0;
+    background: #316DC3;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+}
+
+#mission .header p {
+    color: #f7f8fa;
+     
+
+}
+
+
+.btn{
+    display: inline-block;
+    border:none;
+    padding: 6.5px 14px;
+    color: teal;
+    font-family:  Helvetica, sans-serif;
+    font-size: 11px; 
+}
+.img{
+    background-color:white ;
+    display: block;
+    text-align: left;
+    height: 80px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+
+
+#navbar .menu {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+ 
+    top: 0;
+    background-color: white;
+    color: black;
+    justify-content: flex-end;
+    z-index: 1;
+    padding:;
+    margin-bottom: 0em;
+    
+}
+#navbar .menu ul{
+    position: static;
+    display: flex;
+    align-items: center;
+    list-style: none;
+margin-bottom: 0;
+}
+
+#navbar .img{
+    padding: 10px;
+    margin-right: 60px;
+   
+}   
+
+#navbar .menu ul li a{
+    color: black;
+    padding: 0.75rem;
+    margin: 0 ;
+    font-size: 85%;
+}
+#navbar .menu ul li .active {
+    
+    color:#f7f8fa;
+    background-color: #316DC3;
+    border-radius: 25px;
+  font-weight: bold;
+}
+
+
+#navbar  .img2{
+    top: 0em;
+    background:url('background.jpg')
+    no-repeat cover;
+     overflow: hidden;
+     margin-bottom: 0;
+    
+}
+
+
+#navbar  .para{
+    display: flex;
+    background-color: #316DC3;
+    margin: 0.5rem 0.5rem;
+    justify-content: center;
+    text-align: center;
+    color: #f7f8fa;
+    padding: 0px 30px;
+    margin-bottom: 50px;
+    
+}
+
+
+#intro .container{
+    background-color: #f7f8fa;
+}
+
+
+#intro h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Cambria, Georgia, Times, 'Times New Roman',sans-serif;
+}
+
+#intro .green{
+    color: #316DC3;
+}
+
+#intro .blue{
+    color: green;
+}
+
+#intro  .img3{
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+ 
+}
+
+#intro   .para2{
+   
+  
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: justify;
+    font-size: 15px;
+    color: gray;
+    font-family:  Helvetica, sans-serif;
+    margin-bottom: 80px;
+}
+
+#intro .lead1{
+    position: absolute;
+    bottom: 12px;
+    right: 390Px;
+    color: green;
+    font-weight: bold;
+}
+
+#intro .lead2{
+    position: absolute;
+    bottom: 12px;
+    left: 390px;
+    color: green;
+    font-weight: bold;
+
+}
+
+/* Section: Services */
+#services .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #316dc1;
+    width: 100%;
+    height: 60vh;
+    color: #f7f8fa;
+    align-items: center;
+
+}
+#services #box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#services #box i{
+    text-align: center;
+}
+
+#services #box .big{
+    font-size: 250%;
+    text-align: center;
+    font-family:'Playfair Display', serif;
+   
+}
+
+#services #box .normal{
+    font-size: 110%;
+    text-align: center;
+   
+ 
+}
+#services #box .green{
+    color: springgreen;
+}
+/* Section: aim */
+#aim .container{
+    margin-top: 50px;
+    background-color: #f7f8fa;
+}
+#aim h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Cambria, Georgia, Times, 'Times New Roman',sans-serif;
+}
+
+#aim .green{
+    color: #316DC3;
+}
+
+#aim .blue{
+    color: green;
+}
+
+#aim  .img4{
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+ 
+}
+
+#aim .lead1{
+    position: absolute;
+    bottom: 12px;
+    right: 390px;
+    color: green;
+    font-weight: bold;
+}
+
+#aim .lead2{
+    position: absolute;
+    bottom: 12px;
+    left: 390px;
+    color: green;
+    font-weight: bold;
+}
+#aim .img5{
+    text-align: center;
+   
+ 
+}
+#aim .img5 {
+    width: 260px;
+    height: 160px;
+    margin-right: auto;
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #BFBFBF;
+    background-color:white;
+    box-shadow: 10px 10px 5px #d8d8d8;
+
+}
+#aim .bigg{
+    font-size: 20px;
+    color: #316DC3;
+    
+}
+
+
+#aim .one{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+/* Section: project */
+#project .container{
+    background-color: white;
+}
+
+#project .h1{
+    text-align: left;
+    font-size: 25px;
+    font-family: Cambria, Georgia, Times, 'Times New Roman',sans-serif;
+    color: #316DC3;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+#project .h2{
+    text-align: right;
+    font-size: 25px;
+    font-family: Cambria, Georgia, Times, 'Times New Roman',sans-serif;
+    color: #316DC3;
+    padding-right: 20px;
+    margin-top: 40px;
+    margin-left: 210px;
+}
+#project .heading {
+    display: flex;
+}   
+
+#project p {
+    font-size: smaller;
+    margin-left: 40px;
+}       
+
+
+#project .img6{
+    text-align: left;
+   
+ 
+}
+#project .img6 {
+    display: flex;
+    position: relative;
+    width: 260px;
+    height: 80px;
+    margin-right: 20px;
+    margin-left: 0px;
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #BFBFBF;
+    background-color:#f7f8fa;
+    
+
+}
+#project .bigg{
+    position: absolute;
+    left: 80px;
+    top: 30px;
+    font-size: 15px;
+    color: #316DC3;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+#project .one{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    flex-basis: flex-start;
+}
+
+
+
+
+/* Section: gallery */
+#gallery .container{
+    background-color: white;
+    
+
+}
+#gallery h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Cambria, Georgia, Times, 'Times New Roman',sans-serif;
+}
+
+#gallery .green{
+    color: #316DC3;
+}
+
+#gallery .blue{
+    color: green;
+}
+#gallery  .img4{
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+ 
+}
+
+#gallery .lead1{
+    position: absolute;
+    bottom: 12px;
+    right: 390px;
+    color: green;
+    font-weight: bold;
+}
+
+#gallery .lead2{
+    position: absolute;
+    bottom: 12px;
+    left: 390px;
+    color: green;
+    font-weight: bold;
+}
+
+
+#gallery .one{
+    margin-bottom: 160px;
+    display: flex;
+    margin: 20px;
+    overflow: hidden;
+    
+
+}
+#gallery{
+    margin-bottom: 20%;
+}
+
+#footer{
+   background-color:rgb(71, 71, 71);
+    align-content: center;
+}
+
+#footer .same p{
+    font-size: small;
+}
+
+#footer .container {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    margin: 30px;
+    margin-bottom: 0;
+    color: white;
+   
+    
+}
+
+#footer .same{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+#end{
+    padding: 8px;
+    background-color: #316DC3;
+}
+#end p{
+    font-size: 70%;
+    padding-left: 10px;
+    color: white;
+}
+
+
